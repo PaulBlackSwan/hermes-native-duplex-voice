@@ -1,0 +1,9 @@
+name: grok-voice-oauth
+version: 0.2.0-rc.1
+description: Headless xAI OAuth ephemeral-session broker for native Hermes Desktop duplex voice.
+author: Hermes
+kind: standalone
+license: MIT
+provides_tools: []
+provides_hooks: []
+tags: [desktop, voice, realtime, oauth]

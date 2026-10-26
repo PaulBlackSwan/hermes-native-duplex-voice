@@ -1,0 +1,17 @@
+{
+  "name": "hermes-grok-native-provider",
+  "version": "0.2.0-rc.1",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "files": [
+    "desktop/plugin.js",
+    "LICENSE",
+    "voice-grok.LICENSE",
+    "README.md"
+  ]
+}

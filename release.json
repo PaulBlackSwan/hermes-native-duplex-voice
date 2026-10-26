@@ -1,0 +1,14 @@
+{
+  "name": "hermes-native-duplex-voice",
+  "version": "0.2.0-rc.2",
+  "status": "offline-qualified-release-candidate",
+  "hostBase": "bf0203a794a07aac3ff764972ab9087baa4e4f4e",
+  "nativeLiveVoiceApi": 1,
+  "providers": {
+    "openai": { "implementation": "Hermes built-in GPT-Live", "bundledAdapter": false },
+    "xai-oauth": { "implementation": "bundled native provider and headless broker", "bundledAdapter": true }
+  },
+  "geminiDesktopSupported": false,
+  "liveProviderValidationPerformed": false,
+  "automaticBillingFallback": false
+}

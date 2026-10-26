@@ -1,0 +1,48 @@
+{
+  "version": "0.2.0-rc.2",
+  "qualification": "offline-only",
+  "tests": {
+    "nativeHost": {
+      "passed": 298,
+      "failed": 0,
+      "skipped": 0,
+      "files": 27,
+      "actualPublicArtifactEnabled": true
+    },
+    "provider": { "passed": 28, "failed": 0, "skipped": 0 },
+    "gateway": { "passed": 31, "failed": 0 },
+    "distribution": { "passed": 24, "failed": 0 },
+    "chromiumOfflineAudio": {
+      "checks": 2,
+      "microphoneCalls": 0,
+      "pageNetworkRequests": 0,
+      "nonzeroRenderedSamples": 0
+    }
+  },
+  "checks": {
+    "nativeDesktopRendererBuild": true,
+    "hostTypecheck": true,
+    "scopedEslint": true,
+    "scopedPrettier": true,
+    "hostPatchForwardReverseAndSourceHashes": true,
+    "hostSourceHashesMatched": 80,
+    "correctedPublicArtifactPassesRenderedControls": true,
+    "sessionOwnerAndVoiceAccountSeparated": true,
+    "noCredentialProfileFallback": true
+  },
+  "nativeHostBase": "bf0203a794a07aac3ff764972ab9087baa4e4f4e",
+  "hostPatchSha256": "ae4473c345249766a796c001dcb6090a69a746cfb98edc74fb3036bb69228a01",
+  "providers": {
+    "openai": "Existing GPT-Live path with busy-admission hardening; legacy hook lifetime/nudge control, not Grok parity",
+    "xai-oauth": "Unchanged bundled native API1 provider and ephemeral-session OAuth broker; profile correction is in the native host patch",
+    "gemini": "Not implemented for native Desktop"
+  },
+  "notPerformed": [
+    "new live provider or account-entitlement check for this archive",
+    "actual microphone or output-device test for this archive",
+    "installed app or live plugin modification",
+    "plugin activation or service restart",
+
+    "cross-platform signed application qualification"
+  ]
+}

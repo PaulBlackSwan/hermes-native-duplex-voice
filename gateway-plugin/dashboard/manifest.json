@@ -1,0 +1,1 @@
+{"name":"grok-voice-oauth","title":"Grok Voice (OAuth)","description":"Standalone realtime voice broker. Existing OAuth only, no API key.","api":"plugin_api.py"}
